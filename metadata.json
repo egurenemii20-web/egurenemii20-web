@@ -1,0 +1,6 @@
+{
+  "name": "Mtra. Emili Montoya Eguren",
+  "description": "Sitio web y portafolio profesional de la Mtra. Emili Montoya Eguren, especialista en Educación Básica y Liderazgo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

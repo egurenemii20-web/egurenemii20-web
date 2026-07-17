@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  
+  --color-primary: #051125;
+  --color-secondary: #47607e;
+  --color-emerald-accent: #38B000;
+  --color-surface: #f8f9fa;
+  --color-surface-bright: #f8f9fa;
+  --color-surface-container: #edeeef;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f3f4f5;
+  --color-surface-container-high: #e7e8e9;
+  --color-on-surface-variant: #45474d;
+  --color-primary-container: #1b263b;
+  --color-on-primary-container: #828da7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base style tweaks for high-fidelity portfolio aesthetics */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Blur effects for standard modern navbar */
+.nav-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
